@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-ths-yzbleplugin",
+  "version": "1.0.0",
+  "description": "yuzeen ble plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbg2056/cordova-plugin-ths-yzbleplugin.git"
+  },
+  "author": "wangbg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbg2056/cordova-plugin-ths-yzbleplugin/issues"
+  },
+  "homepage": "https://github.com/wbg2056/cordova-plugin-ths-yzbleplugin#readme",
+  "keywords": [
+	"ecosystem:cordova",
+	"cordova-android",
+	"cordova-ios"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": "&gt;=3.6.0"
+      },
+      "4.0.0": {
+        "cordova-android": "&gt;=3.6.0",
+        "cordova-windows": "&gt;=4.4.0"
+      },
+      "6.0.0": {
+        "cordova": "&gt;100"
+      }
+    },
+    "node": "&gt;=6.0.0"
+  }
+
+}

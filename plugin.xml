@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-ths-yzbleplugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>yzbleplugin</name>
+<js-module name="yzbleplugin" src="www/yzbleplugin.js">
+<clobbers target="cordova.plugins.yzbleplugin" />
+</js-module>
+<platform name="android">
+<config-file parent="/*" target="res/xml/config.xml">
+<feature name="yzbleplugin">
+<param name="android-package" value="org.apache.cordova.yzbleplugin.yzbleplugin" />
+</feature>
+</config-file>
+<config-file parent="/*" target="AndroidManifest.xml" />
+<source-file src="src/android/yzbleplugin.java" target-dir="src/org/apache/cordova/yzbleplugin" />
+</platform>
+<platform name="ios">
+<config-file parent="/*" target="config.xml">
+<feature name="yzbleplugin">
+<param name="ios-package" value="yzbleplugin" />
+</feature>
+</config-file>
+<source-file src="src/ios/yzbleplugin.m" />
+</platform>
+</plugin>
